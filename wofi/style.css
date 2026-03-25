@@ -1,0 +1,37 @@
+* {
+    font-family: JetBrainsMono Nerd Font Mono;
+    color: #ffffff;
+}
+
+window {
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 2px solid #ffffff;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+/* Input */
+#input {
+    background-color: rgba(0, 0, 0, 0.95);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    margin-bottom: 6px;
+}
+
+/* Entries */
+#entry {
+    background-color: transparent;
+}
+
+#entry * {
+    color: #ffffff;
+}
+
+/* Selected (invert) */
+#entry:selected {
+    background-color: #ffffff;
+}
+
+#entry:selected * {
+    color: #000000;
+}
